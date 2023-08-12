@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * main - prints its name
- * @argc: number of arguments
- * @argv: array of arguments
- * Returm: Always 0 (Success)
+ * main - Prints its name
+ * @argc: argument count
+ * @argv: argument vector
+ * Return: Always 0 (Success)
  */
 int main(int argc, char *argv[])
 {
