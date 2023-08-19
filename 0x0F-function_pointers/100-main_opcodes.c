@@ -3,8 +3,8 @@
 
 /**
  * main - prints its own opcodes
- * @argc: argument count
- * @argv: argument vector
+ * @argc: arguments count
+ * @argv: arguments vector
  * Return: Always 0 (Success)
  */
 
@@ -36,11 +36,9 @@ int main(int argc, char *argv[])
 			printf("%02hhx\n", arr[i]);
 			break;
 		}
-		printf("%02hhx", arr[i]);
-
+		printf("%02hhx ", arr[i]);
 	}
 	return (0);
 }
-
 
 
